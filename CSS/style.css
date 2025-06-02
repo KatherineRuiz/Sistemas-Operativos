@@ -15,10 +15,6 @@
     margin-bottom: 10px;
  }
 
- .logo{
-    text-align: center;
-    margin-left: 30px;
- }
 
  header img{
     width: 320px;
@@ -28,7 +24,6 @@
  nav ul{
     display: flex;
     justify-content: space-evenly;
-    font-size: 20px;  
  }
  
  nav li{
@@ -40,7 +35,7 @@
     text-decoration: none;
     color: #ffffff;
     margin-inline: 20px;
-    width: 80px;
+    font-size: 25px;
 }
 
 nav a:hover{
@@ -61,11 +56,9 @@ main{
     align-items: center;
     text-align: center;
     background: linear-gradient(to right,#033744,#075a4f, #84ac4d);
-    width: 700px;
-    height: 280px;
+    height: 180px;
     color: #ffffff;
     font-family: "Concert One", sans-serif;
-    border-radius: 70px;
 }
 
 .contenido{
