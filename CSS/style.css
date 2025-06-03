@@ -61,16 +61,30 @@ main{
     font-family: "Concert One", sans-serif;
 }
 
-.contenido{
-    background-color: #ffffff;
-    padding: 30px;
-}
-
 .comentario{
     color: #cad1d1;
     font-family: "Concert One", sans-serif;
     text-align: center;
 }
+
+.contenido{
+    background-color: #ffffff;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;;
+}
+
+.contenido img{
+    width: 300px;
+    margin-right: 30px;
+    border-radius: 40px;
+}
+
+.contenido h1{
+    color: #075a4f;
+}
+
 footer{
     height: 125px;
     background-image: url(../img/footer.png);
