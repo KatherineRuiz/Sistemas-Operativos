@@ -139,3 +139,34 @@ footer{
     gap: 30px; /* Más separación entre cards */
     padding: 20px;
 }
+.contenedor-particiones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.tarjeta-particion {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 10.5px;
+    transition: transform 0.2s;
+}
+
+.tarjeta-particion:hover {
+    transform: scale(1.05);
+}
+
+.tarjeta-particion h2 {
+    text-align: center;
+    color: #333;
+}
+
+.tarjeta-particion p {
+    margin: 5.5px 0;
+    color: #555;
+}
+
